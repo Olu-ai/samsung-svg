@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.container .header {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .header .logo-container {
+  width: 10%;
+}
+.container .header .logo-container > img {
+  width: 100%;
+}
+.header nav #list-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  text-transform: capitalize;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/images/svr-landing.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero .hero-content {
+  margin: 100px 0;
+}
+.hero .hero-content > h1 {
+  margin: 10px 0;
+  font-size: 60px;
+}
+.hero .hero-content > p {
+  line-height: 1.3;
+  padding-bottom: 10px;
+}
+.hero .hero-content > button {
+  padding: 15px 40px;
+  transition: 1s linear;
+  background: transparent;
+  color: white;
+  text-transform: capitalize;
+  border: 1px solid white;
+}
+.hero .hero-content > button:hover {
+  background: white;
+  color: black;
+}
+.hero .spec {
+  display: grid;
+  background: black;
+  color: white;
+  margin-top: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+  gap: 40px;
+}
+.details > p:first-child {
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.details > p:last-child {
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.slider .slider-container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.slider .slider-container > h2 {
+  margin: 20px 0;
+  font-size: 3rem;
+}
+.slider .slider-container > p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.slider .slider-image{
+    width: 100%;
+}
+.slider .slider-image>img{
+    width: 100%;
+}
+.handbg{
+    height: 100vh;
+    background-image: url(https://samsungsvg-49e9f1.spheron.app/assets/images/svr-hand.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
